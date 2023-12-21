@@ -99,7 +99,7 @@ public class RequestBodyStringController {
      * `@RequestBody` 를 사용하면 HTTP 메시지 바디 정보를 편리하게 조회할 수 있다. 참고로 헤더 정보가 필요하다면
      * `HttpEntity` 를 사용하거나 `@RequestHeader` 를 사용하면 된다.
      * 이렇게 메시지 바디를 직접 조회하는 기능은 요청 파라미터를 조회하는 `@RequestParam` , `@ModelAttribute` 와
-     * 는 전혀 관계가 없다.
+     * 는 전혀 관계가 없다. -> (바디의 내용은 String이 될 수도, Json형식이 될 수도)
 
      /* **요청 파라미터 vs HTTP 메시지 바디**
      * 요청 파라미터를 조회하는 기능: `@RequestParam` , `@ModelAttribute`

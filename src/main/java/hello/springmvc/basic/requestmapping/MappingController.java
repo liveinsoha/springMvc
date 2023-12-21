@@ -13,7 +13,7 @@ import java.awt.*;
 public class MappingController {
 
 
-    //메소드 속성이 명시되지 않으 경우 모든 형태의 메소드를 다 받을 수 있다.
+    //메소드 속성이 명시되지 않은 경우 모든 형태의 메소드를 다 받을 수 있다.
     @RequestMapping(value = {"/hello-basic", "/hello-basic2"}) //배열 {}형태로 다중 매핑이 가능하다.
     public String helloBasic() {
         log.info("info log={}", "helloBasic");
